@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int radius;
-    float area;
-
-    // Read the radius of the circle
-    scanf("%d", &radius);
-
-    // Calculate the area of the circle
-    area = 3.14 * (float)(radius * radius);
-
-    // Print the area of the circle with 2 decimal places and move to a new line
+    float radius;
+    const float PI = 3.14;
+    
+    // Read the radius
+    scanf("%f", &radius);
+    
+    // Calculate area
+    float area = PI * radius * radius;
+    
+    // Print the area with 2 decimal places
     printf("Area: %.2f\n", area);
-
+    
     return 0;
 }
