@@ -12,7 +12,7 @@ int main() {
         printf("Lowercase");
     }
     else {
-        printf("%c is not a letter.\n", ch);
+        printf("Not a letter");
     }
 
     return 0;
