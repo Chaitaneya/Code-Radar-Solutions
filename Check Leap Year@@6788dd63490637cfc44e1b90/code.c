@@ -9,7 +9,11 @@ int main() {
     // Check if positive, negative, or zero
     if (year%4==0 && year%100!=0) {
         printf("Leap Year");
-    } else {
+    }elif(year == 1600 && year ==2000){
+        printf("ot a Leap Year");
+    }
+    
+    else {
         printf("Not a Leap Year");
     }
     
