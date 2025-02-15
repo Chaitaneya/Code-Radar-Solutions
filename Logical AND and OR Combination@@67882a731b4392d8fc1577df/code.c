@@ -6,12 +6,12 @@ int main() {
     // Read two space-separated integers
     scanf("%d %d", &num1, &num2);
     
-    // Check if both numbers are greater than zero using &&
-    if (num1 > 0 && num2 < 0 ||num1,num2>0) {
+    // Check the combined condition using && and ||
+    if ((num1 > 0 && num2 < 0) || (num1 == 0 && num2 == 0)) {
         printf("True\n");
     } else {
         printf("False\n");
     }
     
     return 0;
-}// Your code here...
+}
