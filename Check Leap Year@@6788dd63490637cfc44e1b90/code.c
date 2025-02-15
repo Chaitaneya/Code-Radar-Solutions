@@ -7,19 +7,19 @@ int main() {
 
     // Leap year if perfectly divisible by 400
     if (year % 400 == 0) {
-        printf("%d is a leap year.\n", year);
+        printf("Leap year.\n");
     }
     // Not a leap year if divisible by 100
     else if (year % 100 == 0) {
-        printf("%d is not a leap year.\n", year);
+        printf("Not a leap year.\n");
     }
     // Leap year if perfectly divisible by 4
     else if (year % 4 == 0) {
-        printf("%d is a leap year.\n", year);
+        printf("Leap year.\n");
     }
     // All other years are not leap years
     else {
-        printf("%d is not a leap year.\n", year);
+        printf("Not a leap year.\n");
     }
 
     return 0;
