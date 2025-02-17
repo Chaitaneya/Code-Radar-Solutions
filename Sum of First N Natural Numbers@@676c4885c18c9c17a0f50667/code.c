@@ -1,10 +1,21 @@
-#include<stdio.h>
-int main(){
-    int i,a;
-    int sum=0;
-    scanf("%d",&a);
-    for(i=0;i>=a;i++){
-        sum = sum+i
+
+
+#include <stdio.h>
+
+int main() {
+    int N;
+    int sum = 0;
+    
+    // Read input
+    scanf("%d", &N);
+    
+    // Calculate sum using a loop
+    for(int i = 1; i <= N; i++) {
+        sum += i;
     }
-    printf("%d",sum)
+    
+    // Print result
+    printf("%d\n", sum);
+    
+    return 0;
 }
