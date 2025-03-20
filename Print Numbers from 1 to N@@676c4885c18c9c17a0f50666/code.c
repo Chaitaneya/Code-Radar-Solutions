@@ -1,11 +1,20 @@
-#include<stdio.h>
-int main(){
-    int i,b;
-    scanf("%d",&i);
-    for(b=1;b<=i;b++){
-        printf("%d",b);
-        if (b < i) {
+#include <stdio.h>
+
+int main() {
+    int N;
+    
+    // Read the input value N
+    scanf("%d", &N);
+    
+    // Loop from 1 to N
+    for (int i = 1; i <= N; i++) {
+        printf("%d", i);
+        
+        // Print space after each number except the last one
+        if (i < N) {
             printf(" ");
         }
     }
+    
+    return 0;
 }
